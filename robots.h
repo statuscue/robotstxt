@@ -18,7 +18,7 @@
 //
 // This file implements the standard defined by the Robots Exclusion Protocol
 // (REP) internet draft (I-D).
-//   https://tools.ietf.org/html/draft-rep-wg-topic
+//   https://www.rfc-editor.org/rfc/rfc9309.html
 //
 // Google doesn't follow the standard strictly, because there are a lot of
 // non-conforming robots.txt files out there, and we err on the side of
@@ -176,7 +176,7 @@ class RobotsMatcher : protected RobotsParseHandler {
   // This structure stores the information associated with a match (e.g. when a
   // Disallow is matched) as priority of the match and line matching.
   //
-  // The priority is inialized with a negative value to make sure that a match
+  // The priority is initialized with a negative value to make sure that a match
   // of priority 0 is higher priority than no match at all.
   class Match {
    private:
